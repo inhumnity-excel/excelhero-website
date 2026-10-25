@@ -1,0 +1,23 @@
+{
+  "sourceHost": "https://excelhero.de",
+  "localRoot": "/wp-content/uploads/",
+  "discovered": 1311,
+  "downloaded": 1311,
+  "skipped": 0,
+  "bytes": 93284645,
+  "rewrittenAbsoluteUrls": 1804,
+  "skippedItems": [],
+  "presentForUnmergedFunnelBranchOnly": [
+    "/wp-content/uploads/Excel-Vorlagen-Excelhero.de-1.1.zip",
+    "/wp-content/uploads/Excel-Vorlagen-Excelhero.de-1.2.zip",
+    "/wp-content/uploads/Kette.jpg",
+    "/wp-content/uploads/Makros-Icon.jpg",
+    "/wp-content/uploads/Pivot-Tabellen-Workshop.xlsx",
+    "/wp-content/uploads/Pivot-Tabellen2.jpg",
+    "/wp-content/uploads/Power-Query.jpg",
+    "/wp-content/uploads/VBA.jpg",
+    "/wp-content/uploads/danielkogan-tiny.png",
+    "/wp-content/uploads/excelhero-black-smaller.png",
+    "/wp-content/uploads/excelhero-white.png"
+  ]
+}
