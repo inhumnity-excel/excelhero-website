@@ -1,0 +1,76 @@
+export type { ExcelFn } from "./excel-functions";
+export { FUNCTION_CATEGORIES, FUNCTIONS } from "./excel-functions";
+
+export type Shortcut = {
+  keys: string;
+  mac?: string;
+  action: string;
+  category: string;
+};
+
+export const SHORTCUT_CATEGORIES = ["Alle", "Navigation", "Bearbeiten", "Format", "Formeln", "Daten"] as const;
+
+export const SHORTCUTS: Shortcut[] = [
+  { keys: "Strg + C", mac: "⌘ C", action: "Kopieren", category: "Bearbeiten" },
+  { keys: "Strg + X", mac: "⌘ X", action: "Ausschneiden", category: "Bearbeiten" },
+  { keys: "Strg + V", mac: "⌘ V", action: "Einfügen", category: "Bearbeiten" },
+  { keys: "Strg + Z", mac: "⌘ Z", action: "Rückgängig", category: "Bearbeiten" },
+  { keys: "Strg + Y", mac: "⌘ Y", action: "Wiederholen", category: "Bearbeiten" },
+  { keys: "Strg + S", mac: "⌘ S", action: "Speichern", category: "Bearbeiten" },
+  { keys: "F12", mac: "⌘ Umschalt S", action: "Speichern unter", category: "Bearbeiten" },
+  { keys: "Strg + N", mac: "⌘ N", action: "Neue Arbeitsmappe", category: "Bearbeiten" },
+  { keys: "Strg + O", mac: "⌘ O", action: "Öffnen", category: "Bearbeiten" },
+  { keys: "Strg + P", mac: "⌘ P", action: "Drucken", category: "Bearbeiten" },
+  { keys: "Strg + F", mac: "⌘ F", action: "Suchen", category: "Navigation" },
+  { keys: "Strg + H", mac: "⌘ Umschalt H", action: "Suchen und ersetzen", category: "Navigation" },
+  { keys: "Strg + G", mac: "F5", action: "Gehe zu", category: "Navigation" },
+  { keys: "Strg + Pos1", mac: "⌘ ↑ ←", action: "Zur Zelle A1", category: "Navigation" },
+  { keys: "Strg + Ende", mac: "⌘ ↓ →", action: "Zur letzten verwendete Zelle", category: "Navigation" },
+  { keys: "Strg + Pfeil", mac: "⌘ Pfeil", action: "Zum Rand des Datenblocks", category: "Navigation" },
+  { keys: "Strg + Umschalt + Pfeil", mac: "⌘ Umschalt Pfeil", action: "Datenblock markieren", category: "Navigation" },
+  { keys: "Strg + Bild ↓/↑", mac: "Fn ⌘ ↓/↑", action: "Nächstes / voriges Blatt", category: "Navigation" },
+  { keys: "Strg + Bildlauf", action: "Zoomen", category: "Navigation" },
+  { keys: "F6", action: "Zwischen Blatt, Menüband und Aufgabenbereich wechseln", category: "Navigation" },
+  { keys: "Alt", action: "Tastentipps im Menüband anzeigen", category: "Navigation" },
+  { keys: "Strg + Leertaste", mac: "⌃ Leertaste", action: "Ganze Spalte markieren", category: "Bearbeiten" },
+  { keys: "Umschalt + Leertaste", mac: "⇧ Leertaste", action: "Ganze Zeile markieren", category: "Bearbeiten" },
+  { keys: "Strg + A", mac: "⌘ A", action: "Aktuelle Region / alles markieren", category: "Bearbeiten" },
+  { keys: "Strg + +", mac: "⌘ +", action: "Zellen, Zeilen oder Spalten einfügen", category: "Bearbeiten" },
+  { keys: "Strg + −", mac: "⌘ −", action: "Zellen, Zeilen oder Spalten löschen", category: "Bearbeiten" },
+  { keys: "Strg + D", mac: "⌘ D", action: "Nach unten füllen", category: "Bearbeiten" },
+  { keys: "Strg + R", mac: "⌘ R", action: "Nach rechts füllen", category: "Bearbeiten" },
+  { keys: "Strg + Eingabe", mac: "⌘ Return", action: "Gleichen Wert in alle markierten Zellen", category: "Bearbeiten" },
+  { keys: "F2", mac: "⌃ U", action: "Zelle bearbeiten", category: "Formeln" },
+  { keys: "F4", action: "Bezugsart umschalten ($A$1) bzw. letzten Befehl wiederholen", category: "Formeln" },
+  { keys: "F9", action: "Neu berechnen", category: "Formeln" },
+  { keys: "Umschalt + F9", action: "Aktives Blatt neu berechnen", category: "Formeln" },
+  { keys: "Strg + `", action: "Formeln anzeigen", category: "Formeln" },
+  { keys: "Strg + Umschalt + Enter", action: "Matrixformel (ältere Excel-Versionen)", category: "Formeln" },
+  { keys: "Alt + =", mac: "⌘ Umschalt T", action: "AutoSumme", category: "Formeln" },
+  { keys: "Strg + Umschalt + A", action: "Funktionsargumente nach Funktionsnamen einfügen", category: "Formeln" },
+  { keys: "Umschalt + F3", mac: "Fn ⇧ F3", action: "Funktionsassistent", category: "Formeln" },
+  { keys: "Strg + 1", mac: "⌘ 1", action: "Zellen formatieren", category: "Format" },
+  { keys: "Strg + B", mac: "⌘ B", action: "Fett", category: "Format" },
+  { keys: "Strg + I", mac: "⌘ I", action: "Kursiv", category: "Format" },
+  { keys: "Strg + U", mac: "⌘ U", action: "Unterstrichen", category: "Format" },
+  { keys: "Strg + Umschalt + $", action: "Währungsformat", category: "Format" },
+  { keys: "Strg + Umschalt + %", action: "Prozentformat", category: "Format" },
+  { keys: "Strg + Umschalt + #", action: "Datumsformat", category: "Format" },
+  { keys: "Strg + Umschalt + !", action: "Zahl mit Tausendertrennzeichen", category: "Format" },
+  { keys: "Alt + H + H", action: "Füllfarbe (Menüband-Sequenz)", category: "Format" },
+  { keys: "Strg + T", mac: "⌘ T", action: "Als Tabelle formatieren", category: "Daten" },
+  { keys: "Strg + Umschalt + L", mac: "⌘ Umschalt F", action: "Autofilter ein/aus", category: "Daten" },
+  { keys: "Alt + A + T", action: "Autofilter umschalten (Menüband)", category: "Daten" },
+  { keys: "Alt + D + P", action: "PivotTable-Assistent", category: "Daten" },
+  { keys: "Alt + N + V", action: "PivotTable einfügen", category: "Daten" },
+  { keys: "Strg + Umschalt + +", action: "Einfügen-Dialog", category: "Daten" },
+  { keys: "Alt + A + E", action: "Text in Spalten", category: "Daten" },
+  { keys: "Alt + A + G + G", action: "Gruppieren", category: "Daten" },
+  { keys: "Strg + 8", action: "Gliederungssymbole ein/aus", category: "Daten" },
+  { keys: "Strg + 9", action: "Zeilen ausblenden", category: "Daten" },
+  { keys: "Strg + 0", action: "Spalten ausblenden", category: "Daten" },
+  { keys: "Strg + Umschalt + 9", action: "Zeilen einblenden", category: "Daten" },
+  { keys: "Strg + Umschalt + 0", action: "Spalten einblenden", category: "Daten" },
+  { keys: "Strg + K", mac: "⌘ K", action: "Hyperlink", category: "Bearbeiten" },
+  { keys: "Strg + D (im Blatt-Tab)", action: "Blatt duplizieren per Ziehen mit Strg", category: "Navigation" },
+];
