@@ -13,36 +13,72 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AlleArtikelRouteImport } from './routes/alle-artikel'
 import { Route as AllgemeinRouteImport } from './routes/allgemein'
+import { Route as BasicsTyRouteImport } from './routes/basics-ty'
+import { Route as BfRouteImport } from './routes/bf'
+import { Route as BfbannerRouteImport } from './routes/bfbanner'
+import { Route as BfemailRouteImport } from './routes/bfemail'
 import { Route as BlogRouteImport } from './routes/blog'
+import { Route as BundleExcelBiTyRouteImport } from './routes/bundle-excel-bi-ty'
+import { Route as BundlePbiDaxSqlTyRouteImport } from './routes/bundle-pbi-dax-sql-ty'
+import { Route as BundlePbiDaxTyRouteImport } from './routes/bundle-pbi-dax-ty'
+import { Route as BundleSqlTyRouteImport } from './routes/bundle-sql-ty'
+import { Route as BundleTyRouteImport } from './routes/bundle-ty'
+import { Route as BundleTy1RouteImport } from './routes/bundle-ty-1'
+import { Route as BundleTy2RouteImport } from './routes/bundle-ty-2'
+import { Route as BundleTyTeam1RouteImport } from './routes/bundle-ty-team1'
 import { Route as ChatgptUndExcelRouteImport } from './routes/chatgpt-und-excel'
 import { Route as DatenschutzerklaerungRouteImport } from './routes/datenschutzerklaerung'
+import { Route as DatenzugriffsanfrageRouteImport } from './routes/datenzugriffsanfrage'
 import { Route as DiagrammeRouteImport } from './routes/diagramme'
+import { Route as DvTyRouteImport } from './routes/dv-ty'
 import { Route as ExcelAuftragsprogrammierungRouteImport } from './routes/excel-auftragsprogrammierung'
 import { Route as ExcelFormelnRouteImport } from './routes/excel-formeln'
 import { Route as ExcelFunktionenRouteImport } from './routes/excel-funktionen'
 import { Route as ExcelFunktionenDeutschEnglischRouteImport } from './routes/excel-funktionen-deutsch-englisch'
 import { Route as ExcelFunktionenPowerQueryUebersetzungstabelleRouteImport } from './routes/excel-funktionen-power-query-uebersetzungstabelle'
+import { Route as ExcelKombinationVideoRouteImport } from './routes/excel-kombination-video'
+import { Route as ExcelMakrosRouteImport } from './routes/excel-makros'
 import { Route as ExcelOnlineKurseRouteImport } from './routes/excel-online-kurse'
+import { Route as ExcelPotenzialRouteImport } from './routes/excel-potenzial'
 import { Route as ExcelSchulungOnlineRouteImport } from './routes/excel-schulung-online'
 import { Route as ExcelTabellenRouteImport } from './routes/excel-tabellen'
 import { Route as ExcelTastenkombinationenRouteImport } from './routes/excel-tastenkombinationen'
+import { Route as ExcelVorlagenDownloadRouteImport } from './routes/excel-vorlagen-download'
+import { Route as FeedRouteImport } from './routes/feed'
+import { Route as FeedbackRouteImport } from './routes/feedback'
 import { Route as FormelnRouteImport } from './routes/formeln'
 import { Route as FunktionenRouteImport } from './routes/funktionen'
+import { Route as FunktionenTyRouteImport } from './routes/funktionen-ty'
 import { Route as ImpressumRouteImport } from './routes/impressum'
 import { Route as KontaktRouteImport } from './routes/kontakt'
+import { Route as KostenloserExcelKursRouteImport } from './routes/kostenloser-excel-kurs'
+import { Route as MailTwilioRouteImport } from './routes/mail-twilio'
 import { Route as MakrosRouteImport } from './routes/makros'
+import { Route as MakrosTyRouteImport } from './routes/makros-ty'
+import { Route as MapRouteImport } from './routes/map'
 import { Route as OfficeScriptRouteImport } from './routes/office-script'
+import { Route as OfficeTyRouteImport } from './routes/office-ty'
 import { Route as PartnerprogrammRouteImport } from './routes/partnerprogramm'
 import { Route as PivotTabellenRouteImport } from './routes/pivot-tabellen'
+import { Route as PivotTyRouteImport } from './routes/pivot-ty'
 import { Route as PowerAutomateRouteImport } from './routes/power-automate'
 import { Route as PowerBiRouteImport } from './routes/power-bi'
 import { Route as PowerBiOnlineKursRouteImport } from './routes/power-bi-online-kurs'
 import { Route as PowerPivotRouteImport } from './routes/power-pivot'
+import { Route as PowerPivotTyRouteImport } from './routes/power-pivot-ty'
 import { Route as PowerQueryRouteImport } from './routes/power-query'
+import { Route as PqTyRouteImport } from './routes/pq-ty'
+import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as RueckrufRouteImport } from './routes/rueckruf'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TippsTricksRouteImport } from './routes/tipps-tricks'
 import { Route as VbaRouteImport } from './routes/vba'
+import { Route as VbaBasicTyRouteImport } from './routes/vba-basic-ty'
 import { Route as VbaOnlineKursRouteImport } from './routes/vba-online-kurs'
+import { Route as VbaPremiumTyRouteImport } from './routes/vba-premium-ty'
+import { Route as VbaTyRouteImport } from './routes/vba-ty'
+import { Route as VideoserieTyRouteImport } from './routes/videoserie-ty'
+import { Route as WebinarPivotDateienRouteImport } from './routes/webinar-pivot-dateien'
 import { Route as AllgemeinIndexRouteImport } from './routes/allgemein.index'
 import { Route as AllgemeinAddInsRouteImport } from './routes/allgemein.add-ins'
 import { Route as AllgemeinBenutzerinformationenRouteImport } from './routes/allgemein.benutzerinformationen'
@@ -93,6 +129,7 @@ import { Route as AllgemeinMehrZeitZumLebenRouteImport } from './routes/allgemei
 import { Route as AllgemeinMehrereBereicheMarkierenRouteImport } from './routes/allgemein.mehrere-bereiche-markieren'
 import { Route as AllgemeinMenuebandAnpassenRouteImport } from './routes/allgemein.menueband-anpassen'
 import { Route as AllgemeinMicrosoft365InsiderRouteImport } from './routes/allgemein.microsoft-365-insider'
+import { Route as AllgemeinPivotTabelleFormatierungenRouteImport } from './routes/allgemein.pivot-tabelle-formatierungen'
 import { Route as AllgemeinProduktinformationenRouteImport } from './routes/allgemein.produktinformationen'
 import { Route as AllgemeinPrognoseblattRouteImport } from './routes/allgemein.prognoseblatt'
 import { Route as AllgemeinRechtschreibungArbeitsmappenstatistikenRouteImport } from './routes/allgemein.rechtschreibung-arbeitsmappenstatistiken'
@@ -116,6 +153,7 @@ import { Route as AllgemeinZielwertsucheRouteImport } from './routes/allgemein.z
 import { Route as AllgemeinZoomErstellenRouteImport } from './routes/allgemein.zoom-erstellen'
 import { Route as AutomatePowerAutomateGanzEinfachErklaertRouteImport } from './routes/automate.power-automate-ganz-einfach-erklaert'
 import { Route as BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRouteImport } from './routes/bedingte-formatierung.bedingte-formatierung-ganz-einfach-erklaert'
+import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as DiagrammeIndexRouteImport } from './routes/diagramme.index'
 import { Route as DiagrammeAchsenFormatierenRouteImport } from './routes/diagramme.achsen-formatieren'
 import { Route as DiagrammeBalkendiagrammRouteImport } from './routes/diagramme.balkendiagramm'
@@ -142,6 +180,7 @@ import { Route as DiagrammeWasserfallDiagrammRouteImport } from './routes/diagra
 import { Route as DiagrammeZeichnungsflaecheFormatierenRouteImport } from './routes/diagramme.zeichnungsflaeche-formatieren'
 import { Route as ExcelTabellenIndexRouteImport } from './routes/excel-tabellen.index'
 import { Route as ExcelTabellenExcelTabelleErstellenRouteImport } from './routes/excel-tabellen.excel-tabelle-erstellen'
+import { Route as FeedIndexRouteImport } from './routes/feed/index'
 import { Route as FormelnAdresseDerErstenZelleInZellbereichRouteImport } from './routes/formeln.adresse-der-ersten-zelle-in-zellbereich'
 import { Route as FormelnAdresseDerLetztenZelleInZellbereichRouteImport } from './routes/formeln.adresse-der-letzten-zelle-in-zellbereich'
 import { Route as FormelnAdresseDesBenanntenZellbereichsAbrufenRouteImport } from './routes/formeln.adresse-des-benannten-zellbereichs-abrufen'
@@ -178,6 +217,7 @@ import { Route as FormelnEindeutigeWerteMarkierenRouteImport } from './routes/fo
 import { Route as FormelnErsteSpaltennummerInEinemZellbereichRouteImport } from './routes/formeln.erste-spaltennummer-in-einem-zellbereich'
 import { Route as FormelnErsteZeilennummerInEinemZellbereichRouteImport } from './routes/formeln.erste-zeilennummer-in-einem-zellbereich'
 import { Route as FormelnErstesZeichenEntfernenRouteImport } from './routes/formeln.erstes-zeichen-entfernen'
+import { Route as FormelnExcelGruppierennachFunktionRouteImport } from './routes/formeln.excel-gruppierennach-funktion'
 import { Route as FormelnFehlendeWerteMarkierenRouteImport } from './routes/formeln.fehlende-werte-markieren'
 import { Route as FormelnFehlerAnfangenRouteImport } from './routes/formeln.fehler-anfangen'
 import { Route as FormelnFormelInZelleAnzeigenRouteImport } from './routes/formeln.formel-in-zelle-anzeigen'
@@ -299,6 +339,7 @@ import { Route as FunktionenExcelFehlerTypFunktionRouteImport } from './routes/f
 import { Route as FunktionenExcelFilterFunktionRouteImport } from './routes/funktionen.excel-filter-funktion'
 import { Route as FunktionenExcelFindenFunktionRouteImport } from './routes/funktionen.excel-finden-funktion'
 import { Route as FunktionenExcelFormeltextFunktionRouteImport } from './routes/funktionen.excel-formeltext-funktion'
+import { Route as FunktionenExcelFunktionenRouteImport } from './routes/funktionen.excel-funktionen'
 import { Route as FunktionenExcelGanzzahlFunktionRouteImport } from './routes/funktionen.excel-ganzzahl-funktion'
 import { Route as FunktionenExcelGeradeFunktionRouteImport } from './routes/funktionen.excel-gerade-funktion'
 import { Route as FunktionenExcelGgtFunktionRouteImport } from './routes/funktionen.excel-ggt-funktion'
@@ -554,6 +595,8 @@ import { Route as TippsTricksZeitfresserRouteImport } from './routes/tipps-trick
 import { Route as VbaIndexRouteImport } from './routes/vba.index'
 import { Route as VbaExcelObjektmodellRouteImport } from './routes/vba.excel-objektmodell'
 import { Route as VbaExcelVbaRouteImport } from './routes/vba.excel-vba'
+import { Route as BlogPagePageRouteImport } from './routes/blog.page.$page'
+import { Route as WpContentUploads01ListeVsTabelleDotxlsxRouteImport } from './routes/wp-content.uploads.01-Liste-vs-Tabelle[.]xlsx'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -575,9 +618,69 @@ const AllgemeinRoute = AllgemeinRouteImport.update({
   path: '/allgemein',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BasicsTyRoute = BasicsTyRouteImport.update({
+  id: '/basics-ty',
+  path: '/basics-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BfRoute = BfRouteImport.update({
+  id: '/bf',
+  path: '/bf',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BfbannerRoute = BfbannerRouteImport.update({
+  id: '/bfbanner',
+  path: '/bfbanner',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BfemailRoute = BfemailRouteImport.update({
+  id: '/bfemail',
+  path: '/bfemail',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogRoute = BlogRouteImport.update({
   id: '/blog',
   path: '/blog',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundleExcelBiTyRoute = BundleExcelBiTyRouteImport.update({
+  id: '/bundle-excel-bi-ty',
+  path: '/bundle-excel-bi-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundlePbiDaxSqlTyRoute = BundlePbiDaxSqlTyRouteImport.update({
+  id: '/bundle-pbi-dax-sql-ty',
+  path: '/bundle-pbi-dax-sql-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundlePbiDaxTyRoute = BundlePbiDaxTyRouteImport.update({
+  id: '/bundle-pbi-dax-ty',
+  path: '/bundle-pbi-dax-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundleSqlTyRoute = BundleSqlTyRouteImport.update({
+  id: '/bundle-sql-ty',
+  path: '/bundle-sql-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundleTyRoute = BundleTyRouteImport.update({
+  id: '/bundle-ty',
+  path: '/bundle-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundleTy1Route = BundleTy1RouteImport.update({
+  id: '/bundle-ty-1',
+  path: '/bundle-ty-1',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundleTy2Route = BundleTy2RouteImport.update({
+  id: '/bundle-ty-2',
+  path: '/bundle-ty-2',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BundleTyTeam1Route = BundleTyTeam1RouteImport.update({
+  id: '/bundle-ty-team1',
+  path: '/bundle-ty-team1',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ChatgptUndExcelRoute = ChatgptUndExcelRouteImport.update({
@@ -590,9 +693,19 @@ const DatenschutzerklaerungRoute = DatenschutzerklaerungRouteImport.update({
   path: '/datenschutzerklaerung',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DatenzugriffsanfrageRoute = DatenzugriffsanfrageRouteImport.update({
+  id: '/datenzugriffsanfrage',
+  path: '/datenzugriffsanfrage',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DiagrammeRoute = DiagrammeRouteImport.update({
   id: '/diagramme',
   path: '/diagramme',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DvTyRoute = DvTyRouteImport.update({
+  id: '/dv-ty',
+  path: '/dv-ty',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ExcelAuftragsprogrammierungRoute =
@@ -623,9 +736,24 @@ const ExcelFunktionenPowerQueryUebersetzungstabelleRoute =
     path: '/excel-funktionen-power-query-uebersetzungstabelle',
     getParentRoute: () => rootRouteImport,
   } as any)
+const ExcelKombinationVideoRoute = ExcelKombinationVideoRouteImport.update({
+  id: '/excel-kombination-video',
+  path: '/excel-kombination-video',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExcelMakrosRoute = ExcelMakrosRouteImport.update({
+  id: '/excel-makros',
+  path: '/excel-makros',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ExcelOnlineKurseRoute = ExcelOnlineKurseRouteImport.update({
   id: '/excel-online-kurse',
   path: '/excel-online-kurse',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExcelPotenzialRoute = ExcelPotenzialRouteImport.update({
+  id: '/excel-potenzial',
+  path: '/excel-potenzial',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ExcelSchulungOnlineRoute = ExcelSchulungOnlineRouteImport.update({
@@ -644,6 +772,21 @@ const ExcelTastenkombinationenRoute =
     path: '/excel-tastenkombinationen',
     getParentRoute: () => rootRouteImport,
   } as any)
+const ExcelVorlagenDownloadRoute = ExcelVorlagenDownloadRouteImport.update({
+  id: '/excel-vorlagen-download',
+  path: '/excel-vorlagen-download',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FeedRoute = FeedRouteImport.update({
+  id: '/feed',
+  path: '/feed',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FeedbackRoute = FeedbackRouteImport.update({
+  id: '/feedback',
+  path: '/feedback',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FormelnRoute = FormelnRouteImport.update({
   id: '/formeln',
   path: '/formeln',
@@ -652,6 +795,11 @@ const FormelnRoute = FormelnRouteImport.update({
 const FunktionenRoute = FunktionenRouteImport.update({
   id: '/funktionen',
   path: '/funktionen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FunktionenTyRoute = FunktionenTyRouteImport.update({
+  id: '/funktionen-ty',
+  path: '/funktionen-ty',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ImpressumRoute = ImpressumRouteImport.update({
@@ -664,14 +812,39 @@ const KontaktRoute = KontaktRouteImport.update({
   path: '/kontakt',
   getParentRoute: () => rootRouteImport,
 } as any)
+const KostenloserExcelKursRoute = KostenloserExcelKursRouteImport.update({
+  id: '/kostenloser-excel-kurs',
+  path: '/kostenloser-excel-kurs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MailTwilioRoute = MailTwilioRouteImport.update({
+  id: '/mail-twilio',
+  path: '/mail-twilio',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MakrosRoute = MakrosRouteImport.update({
   id: '/makros',
   path: '/makros',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MakrosTyRoute = MakrosTyRouteImport.update({
+  id: '/makros-ty',
+  path: '/makros-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MapRoute = MapRouteImport.update({
+  id: '/map',
+  path: '/map',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OfficeScriptRoute = OfficeScriptRouteImport.update({
   id: '/office-script',
   path: '/office-script',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OfficeTyRoute = OfficeTyRouteImport.update({
+  id: '/office-ty',
+  path: '/office-ty',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PartnerprogrammRoute = PartnerprogrammRouteImport.update({
@@ -682,6 +855,11 @@ const PartnerprogrammRoute = PartnerprogrammRouteImport.update({
 const PivotTabellenRoute = PivotTabellenRouteImport.update({
   id: '/pivot-tabellen',
   path: '/pivot-tabellen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PivotTyRoute = PivotTyRouteImport.update({
+  id: '/pivot-ty',
+  path: '/pivot-ty',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PowerAutomateRoute = PowerAutomateRouteImport.update({
@@ -704,14 +882,34 @@ const PowerPivotRoute = PowerPivotRouteImport.update({
   path: '/power-pivot',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PowerPivotTyRoute = PowerPivotTyRouteImport.update({
+  id: '/power-pivot-ty',
+  path: '/power-pivot-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PowerQueryRoute = PowerQueryRouteImport.update({
   id: '/power-query',
   path: '/power-query',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PqTyRoute = PqTyRouteImport.update({
+  id: '/pq-ty',
+  path: '/pq-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
+  id: '/robots.txt',
+  path: '/robots.txt',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RueckrufRoute = RueckrufRouteImport.update({
   id: '/rueckruf',
   path: '/rueckruf',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TippsTricksRoute = TippsTricksRouteImport.update({
@@ -724,9 +922,34 @@ const VbaRoute = VbaRouteImport.update({
   path: '/vba',
   getParentRoute: () => rootRouteImport,
 } as any)
+const VbaBasicTyRoute = VbaBasicTyRouteImport.update({
+  id: '/vba-basic-ty',
+  path: '/vba-basic-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const VbaOnlineKursRoute = VbaOnlineKursRouteImport.update({
   id: '/vba-online-kurs',
   path: '/vba-online-kurs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VbaPremiumTyRoute = VbaPremiumTyRouteImport.update({
+  id: '/vba-premium-ty',
+  path: '/vba-premium-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VbaTyRoute = VbaTyRouteImport.update({
+  id: '/vba-ty',
+  path: '/vba-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VideoserieTyRoute = VideoserieTyRouteImport.update({
+  id: '/videoserie-ty',
+  path: '/videoserie-ty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WebinarPivotDateienRoute = WebinarPivotDateienRouteImport.update({
+  id: '/webinar-pivot-dateien',
+  path: '/webinar-pivot-dateien',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AllgemeinIndexRoute = AllgemeinIndexRouteImport.update({
@@ -1014,6 +1237,12 @@ const AllgemeinMicrosoft365InsiderRoute =
     path: '/microsoft-365-insider',
     getParentRoute: () => AllgemeinRoute,
   } as any)
+const AllgemeinPivotTabelleFormatierungenRoute =
+  AllgemeinPivotTabelleFormatierungenRouteImport.update({
+    id: '/pivot-tabelle-formatierungen',
+    path: '/pivot-tabelle-formatierungen',
+    getParentRoute: () => AllgemeinRoute,
+  } as any)
 const AllgemeinProduktinformationenRoute =
   AllgemeinProduktinformationenRouteImport.update({
     id: '/produktinformationen',
@@ -1147,6 +1376,11 @@ const BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute =
       getParentRoute: () => rootRouteImport,
     } as any,
   )
+const CategorySlugRoute = CategorySlugRouteImport.update({
+  id: '/category/$slug',
+  path: '/category/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DiagrammeIndexRoute = DiagrammeIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -1292,6 +1526,11 @@ const ExcelTabellenExcelTabelleErstellenRoute =
     path: '/excel-tabelle-erstellen',
     getParentRoute: () => ExcelTabellenRoute,
   } as any)
+const FeedIndexRoute = FeedIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => FeedRoute,
+} as any)
 const FormelnAdresseDerErstenZelleInZellbereichRoute =
   FormelnAdresseDerErstenZelleInZellbereichRouteImport.update({
     id: '/adresse-der-ersten-zelle-in-zellbereich',
@@ -1502,6 +1741,12 @@ const FormelnErstesZeichenEntfernenRoute =
   FormelnErstesZeichenEntfernenRouteImport.update({
     id: '/erstes-zeichen-entfernen',
     path: '/erstes-zeichen-entfernen',
+    getParentRoute: () => FormelnRoute,
+  } as any)
+const FormelnExcelGruppierennachFunktionRoute =
+  FormelnExcelGruppierennachFunktionRouteImport.update({
+    id: '/excel-gruppierennach-funktion',
+    path: '/excel-gruppierennach-funktion',
     getParentRoute: () => FormelnRoute,
   } as any)
 const FormelnFehlendeWerteMarkierenRoute =
@@ -2221,6 +2466,12 @@ const FunktionenExcelFormeltextFunktionRoute =
   FunktionenExcelFormeltextFunktionRouteImport.update({
     id: '/excel-formeltext-funktion',
     path: '/excel-formeltext-funktion',
+    getParentRoute: () => FunktionenRoute,
+  } as any)
+const FunktionenExcelFunktionenRoute =
+  FunktionenExcelFunktionenRouteImport.update({
+    id: '/excel-funktionen',
+    path: '/excel-funktionen',
     getParentRoute: () => FunktionenRoute,
   } as any)
 const FunktionenExcelGanzzahlFunktionRoute =
@@ -3739,42 +3990,89 @@ const VbaExcelVbaRoute = VbaExcelVbaRouteImport.update({
   path: '/excel-vba',
   getParentRoute: () => VbaRoute,
 } as any)
+const BlogPagePageRoute = BlogPagePageRouteImport.update({
+  id: '/page/$page',
+  path: '/page/$page',
+  getParentRoute: () => BlogRoute,
+} as any)
+const WpContentUploads01ListeVsTabelleDotxlsxRoute =
+  WpContentUploads01ListeVsTabelleDotxlsxRouteImport.update({
+    id: '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx',
+    path: '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/alle-artikel': typeof AlleArtikelRoute
   '/allgemein': typeof AllgemeinRouteWithChildren
-  '/blog': typeof BlogRoute
+  '/basics-ty': typeof BasicsTyRoute
+  '/bf': typeof BfRoute
+  '/bfbanner': typeof BfbannerRoute
+  '/bfemail': typeof BfemailRoute
+  '/blog': typeof BlogRouteWithChildren
+  '/bundle-excel-bi-ty': typeof BundleExcelBiTyRoute
+  '/bundle-pbi-dax-sql-ty': typeof BundlePbiDaxSqlTyRoute
+  '/bundle-pbi-dax-ty': typeof BundlePbiDaxTyRoute
+  '/bundle-sql-ty': typeof BundleSqlTyRoute
+  '/bundle-ty': typeof BundleTyRoute
+  '/bundle-ty-1': typeof BundleTy1Route
+  '/bundle-ty-2': typeof BundleTy2Route
+  '/bundle-ty-team1': typeof BundleTyTeam1Route
   '/chatgpt-und-excel': typeof ChatgptUndExcelRoute
   '/datenschutzerklaerung': typeof DatenschutzerklaerungRoute
+  '/datenzugriffsanfrage': typeof DatenzugriffsanfrageRoute
   '/diagramme': typeof DiagrammeRouteWithChildren
+  '/dv-ty': typeof DvTyRoute
   '/excel-auftragsprogrammierung': typeof ExcelAuftragsprogrammierungRoute
   '/excel-formeln': typeof ExcelFormelnRoute
   '/excel-funktionen': typeof ExcelFunktionenRoute
   '/excel-funktionen-deutsch-englisch': typeof ExcelFunktionenDeutschEnglischRoute
   '/excel-funktionen-power-query-uebersetzungstabelle': typeof ExcelFunktionenPowerQueryUebersetzungstabelleRoute
+  '/excel-kombination-video': typeof ExcelKombinationVideoRoute
+  '/excel-makros': typeof ExcelMakrosRoute
   '/excel-online-kurse': typeof ExcelOnlineKurseRoute
+  '/excel-potenzial': typeof ExcelPotenzialRoute
   '/excel-schulung-online': typeof ExcelSchulungOnlineRoute
   '/excel-tabellen': typeof ExcelTabellenRouteWithChildren
   '/excel-tastenkombinationen': typeof ExcelTastenkombinationenRoute
+  '/excel-vorlagen-download': typeof ExcelVorlagenDownloadRoute
+  '/feed': typeof FeedRouteWithChildren
+  '/feedback': typeof FeedbackRoute
   '/formeln': typeof FormelnRouteWithChildren
   '/funktionen': typeof FunktionenRouteWithChildren
+  '/funktionen-ty': typeof FunktionenTyRoute
   '/impressum': typeof ImpressumRoute
   '/kontakt': typeof KontaktRoute
+  '/kostenloser-excel-kurs': typeof KostenloserExcelKursRoute
+  '/mail-twilio': typeof MailTwilioRoute
   '/makros': typeof MakrosRouteWithChildren
+  '/makros-ty': typeof MakrosTyRoute
+  '/map': typeof MapRoute
   '/office-script': typeof OfficeScriptRouteWithChildren
+  '/office-ty': typeof OfficeTyRoute
   '/partnerprogramm': typeof PartnerprogrammRoute
   '/pivot-tabellen': typeof PivotTabellenRouteWithChildren
+  '/pivot-ty': typeof PivotTyRoute
   '/power-automate': typeof PowerAutomateRoute
   '/power-bi': typeof PowerBiRouteWithChildren
   '/power-bi-online-kurs': typeof PowerBiOnlineKursRoute
   '/power-pivot': typeof PowerPivotRouteWithChildren
+  '/power-pivot-ty': typeof PowerPivotTyRoute
   '/power-query': typeof PowerQueryRouteWithChildren
+  '/pq-ty': typeof PqTyRoute
+  '/robots.txt': typeof RobotsDottxtRoute
   '/rueckruf': typeof RueckrufRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tipps-tricks': typeof TippsTricksRouteWithChildren
   '/vba': typeof VbaRouteWithChildren
+  '/vba-basic-ty': typeof VbaBasicTyRoute
   '/vba-online-kurs': typeof VbaOnlineKursRoute
+  '/vba-premium-ty': typeof VbaPremiumTyRoute
+  '/vba-ty': typeof VbaTyRoute
+  '/videoserie-ty': typeof VideoserieTyRoute
+  '/webinar-pivot-dateien': typeof WebinarPivotDateienRoute
   '/allgemein/add-ins': typeof AllgemeinAddInsRoute
   '/allgemein/benutzerinformationen': typeof AllgemeinBenutzerinformationenRoute
   '/allgemein/bereiche-blaetter-schuetzen': typeof AllgemeinBereicheBlaetterSchuetzenRoute
@@ -3824,6 +4122,7 @@ export interface FileRoutesByFullPath {
   '/allgemein/mehrere-bereiche-markieren': typeof AllgemeinMehrereBereicheMarkierenRoute
   '/allgemein/menueband-anpassen': typeof AllgemeinMenuebandAnpassenRoute
   '/allgemein/microsoft-365-insider': typeof AllgemeinMicrosoft365InsiderRoute
+  '/allgemein/pivot-tabelle-formatierungen': typeof AllgemeinPivotTabelleFormatierungenRoute
   '/allgemein/produktinformationen': typeof AllgemeinProduktinformationenRoute
   '/allgemein/prognoseblatt': typeof AllgemeinPrognoseblattRoute
   '/allgemein/rechtschreibung-arbeitsmappenstatistiken': typeof AllgemeinRechtschreibungArbeitsmappenstatistikenRoute
@@ -3847,6 +4146,7 @@ export interface FileRoutesByFullPath {
   '/allgemein/zoom-erstellen': typeof AllgemeinZoomErstellenRoute
   '/automate/power-automate-ganz-einfach-erklaert': typeof AutomatePowerAutomateGanzEinfachErklaertRoute
   '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert': typeof BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute
+  '/category/$slug': typeof CategorySlugRoute
   '/diagramme/achsen-formatieren': typeof DiagrammeAchsenFormatierenRoute
   '/diagramme/balkendiagramm': typeof DiagrammeBalkendiagrammRoute
   '/diagramme/blasendiagramm': typeof DiagrammeBlasendiagrammRoute
@@ -3907,6 +4207,7 @@ export interface FileRoutesByFullPath {
   '/formeln/erste-spaltennummer-in-einem-zellbereich': typeof FormelnErsteSpaltennummerInEinemZellbereichRoute
   '/formeln/erste-zeilennummer-in-einem-zellbereich': typeof FormelnErsteZeilennummerInEinemZellbereichRoute
   '/formeln/erstes-zeichen-entfernen': typeof FormelnErstesZeichenEntfernenRoute
+  '/formeln/excel-gruppierennach-funktion': typeof FormelnExcelGruppierennachFunktionRoute
   '/formeln/fehlende-werte-markieren': typeof FormelnFehlendeWerteMarkierenRoute
   '/formeln/fehler-anfangen': typeof FormelnFehlerAnfangenRoute
   '/formeln/formel-in-zelle-anzeigen': typeof FormelnFormelInZelleAnzeigenRoute
@@ -4028,6 +4329,7 @@ export interface FileRoutesByFullPath {
   '/funktionen/excel-filter-funktion': typeof FunktionenExcelFilterFunktionRoute
   '/funktionen/excel-finden-funktion': typeof FunktionenExcelFindenFunktionRoute
   '/funktionen/excel-formeltext-funktion': typeof FunktionenExcelFormeltextFunktionRoute
+  '/funktionen/excel-funktionen': typeof FunktionenExcelFunktionenRoute
   '/funktionen/excel-ganzzahl-funktion': typeof FunktionenExcelGanzzahlFunktionRoute
   '/funktionen/excel-gerade-funktion': typeof FunktionenExcelGeradeFunktionRoute
   '/funktionen/excel-ggt-funktion': typeof FunktionenExcelGgtFunktionRoute
@@ -4277,6 +4579,7 @@ export interface FileRoutesByFullPath {
   '/allgemein/': typeof AllgemeinIndexRoute
   '/diagramme/': typeof DiagrammeIndexRoute
   '/excel-tabellen/': typeof ExcelTabellenIndexRoute
+  '/feed/': typeof FeedIndexRoute
   '/guides/': typeof GuidesIndexRoute
   '/makros/': typeof MakrosIndexRoute
   '/office-script/': typeof OfficeScriptIndexRoute
@@ -4286,31 +4589,68 @@ export interface FileRoutesByFullPath {
   '/power-query/': typeof PowerQueryIndexRoute
   '/tipps-tricks/': typeof TippsTricksIndexRoute
   '/vba/': typeof VbaIndexRoute
+  '/blog/page/$page': typeof BlogPagePageRoute
+  '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx': typeof WpContentUploads01ListeVsTabelleDotxlsxRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/alle-artikel': typeof AlleArtikelRoute
-  '/blog': typeof BlogRoute
+  '/basics-ty': typeof BasicsTyRoute
+  '/bf': typeof BfRoute
+  '/bfbanner': typeof BfbannerRoute
+  '/bfemail': typeof BfemailRoute
+  '/blog': typeof BlogRouteWithChildren
+  '/bundle-excel-bi-ty': typeof BundleExcelBiTyRoute
+  '/bundle-pbi-dax-sql-ty': typeof BundlePbiDaxSqlTyRoute
+  '/bundle-pbi-dax-ty': typeof BundlePbiDaxTyRoute
+  '/bundle-sql-ty': typeof BundleSqlTyRoute
+  '/bundle-ty': typeof BundleTyRoute
+  '/bundle-ty-1': typeof BundleTy1Route
+  '/bundle-ty-2': typeof BundleTy2Route
+  '/bundle-ty-team1': typeof BundleTyTeam1Route
   '/chatgpt-und-excel': typeof ChatgptUndExcelRoute
   '/datenschutzerklaerung': typeof DatenschutzerklaerungRoute
+  '/datenzugriffsanfrage': typeof DatenzugriffsanfrageRoute
+  '/dv-ty': typeof DvTyRoute
   '/excel-auftragsprogrammierung': typeof ExcelAuftragsprogrammierungRoute
   '/excel-formeln': typeof ExcelFormelnRoute
   '/excel-funktionen': typeof ExcelFunktionenRoute
   '/excel-funktionen-deutsch-englisch': typeof ExcelFunktionenDeutschEnglischRoute
   '/excel-funktionen-power-query-uebersetzungstabelle': typeof ExcelFunktionenPowerQueryUebersetzungstabelleRoute
+  '/excel-kombination-video': typeof ExcelKombinationVideoRoute
+  '/excel-makros': typeof ExcelMakrosRoute
   '/excel-online-kurse': typeof ExcelOnlineKurseRoute
+  '/excel-potenzial': typeof ExcelPotenzialRoute
   '/excel-schulung-online': typeof ExcelSchulungOnlineRoute
   '/excel-tastenkombinationen': typeof ExcelTastenkombinationenRoute
+  '/excel-vorlagen-download': typeof ExcelVorlagenDownloadRoute
+  '/feedback': typeof FeedbackRoute
   '/formeln': typeof FormelnRouteWithChildren
   '/funktionen': typeof FunktionenRouteWithChildren
+  '/funktionen-ty': typeof FunktionenTyRoute
   '/impressum': typeof ImpressumRoute
   '/kontakt': typeof KontaktRoute
+  '/kostenloser-excel-kurs': typeof KostenloserExcelKursRoute
+  '/mail-twilio': typeof MailTwilioRoute
+  '/makros-ty': typeof MakrosTyRoute
+  '/map': typeof MapRoute
+  '/office-ty': typeof OfficeTyRoute
   '/partnerprogramm': typeof PartnerprogrammRoute
+  '/pivot-ty': typeof PivotTyRoute
   '/power-automate': typeof PowerAutomateRoute
   '/power-bi-online-kurs': typeof PowerBiOnlineKursRoute
+  '/power-pivot-ty': typeof PowerPivotTyRoute
+  '/pq-ty': typeof PqTyRoute
+  '/robots.txt': typeof RobotsDottxtRoute
   '/rueckruf': typeof RueckrufRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/vba-basic-ty': typeof VbaBasicTyRoute
   '/vba-online-kurs': typeof VbaOnlineKursRoute
+  '/vba-premium-ty': typeof VbaPremiumTyRoute
+  '/vba-ty': typeof VbaTyRoute
+  '/videoserie-ty': typeof VideoserieTyRoute
+  '/webinar-pivot-dateien': typeof WebinarPivotDateienRoute
   '/allgemein/add-ins': typeof AllgemeinAddInsRoute
   '/allgemein/benutzerinformationen': typeof AllgemeinBenutzerinformationenRoute
   '/allgemein/bereiche-blaetter-schuetzen': typeof AllgemeinBereicheBlaetterSchuetzenRoute
@@ -4360,6 +4700,7 @@ export interface FileRoutesByTo {
   '/allgemein/mehrere-bereiche-markieren': typeof AllgemeinMehrereBereicheMarkierenRoute
   '/allgemein/menueband-anpassen': typeof AllgemeinMenuebandAnpassenRoute
   '/allgemein/microsoft-365-insider': typeof AllgemeinMicrosoft365InsiderRoute
+  '/allgemein/pivot-tabelle-formatierungen': typeof AllgemeinPivotTabelleFormatierungenRoute
   '/allgemein/produktinformationen': typeof AllgemeinProduktinformationenRoute
   '/allgemein/prognoseblatt': typeof AllgemeinPrognoseblattRoute
   '/allgemein/rechtschreibung-arbeitsmappenstatistiken': typeof AllgemeinRechtschreibungArbeitsmappenstatistikenRoute
@@ -4383,6 +4724,7 @@ export interface FileRoutesByTo {
   '/allgemein/zoom-erstellen': typeof AllgemeinZoomErstellenRoute
   '/automate/power-automate-ganz-einfach-erklaert': typeof AutomatePowerAutomateGanzEinfachErklaertRoute
   '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert': typeof BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute
+  '/category/$slug': typeof CategorySlugRoute
   '/diagramme/achsen-formatieren': typeof DiagrammeAchsenFormatierenRoute
   '/diagramme/balkendiagramm': typeof DiagrammeBalkendiagrammRoute
   '/diagramme/blasendiagramm': typeof DiagrammeBlasendiagrammRoute
@@ -4443,6 +4785,7 @@ export interface FileRoutesByTo {
   '/formeln/erste-spaltennummer-in-einem-zellbereich': typeof FormelnErsteSpaltennummerInEinemZellbereichRoute
   '/formeln/erste-zeilennummer-in-einem-zellbereich': typeof FormelnErsteZeilennummerInEinemZellbereichRoute
   '/formeln/erstes-zeichen-entfernen': typeof FormelnErstesZeichenEntfernenRoute
+  '/formeln/excel-gruppierennach-funktion': typeof FormelnExcelGruppierennachFunktionRoute
   '/formeln/fehlende-werte-markieren': typeof FormelnFehlendeWerteMarkierenRoute
   '/formeln/fehler-anfangen': typeof FormelnFehlerAnfangenRoute
   '/formeln/formel-in-zelle-anzeigen': typeof FormelnFormelInZelleAnzeigenRoute
@@ -4564,6 +4907,7 @@ export interface FileRoutesByTo {
   '/funktionen/excel-filter-funktion': typeof FunktionenExcelFilterFunktionRoute
   '/funktionen/excel-finden-funktion': typeof FunktionenExcelFindenFunktionRoute
   '/funktionen/excel-formeltext-funktion': typeof FunktionenExcelFormeltextFunktionRoute
+  '/funktionen/excel-funktionen': typeof FunktionenExcelFunktionenRoute
   '/funktionen/excel-ganzzahl-funktion': typeof FunktionenExcelGanzzahlFunktionRoute
   '/funktionen/excel-gerade-funktion': typeof FunktionenExcelGeradeFunktionRoute
   '/funktionen/excel-ggt-funktion': typeof FunktionenExcelGgtFunktionRoute
@@ -4813,6 +5157,7 @@ export interface FileRoutesByTo {
   '/allgemein': typeof AllgemeinIndexRoute
   '/diagramme': typeof DiagrammeIndexRoute
   '/excel-tabellen': typeof ExcelTabellenIndexRoute
+  '/feed': typeof FeedIndexRoute
   '/guides': typeof GuidesIndexRoute
   '/makros': typeof MakrosIndexRoute
   '/office-script': typeof OfficeScriptIndexRoute
@@ -4822,6 +5167,8 @@ export interface FileRoutesByTo {
   '/power-query': typeof PowerQueryIndexRoute
   '/tipps-tricks': typeof TippsTricksIndexRoute
   '/vba': typeof VbaIndexRoute
+  '/blog/page/$page': typeof BlogPagePageRoute
+  '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx': typeof WpContentUploads01ListeVsTabelleDotxlsxRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -4829,36 +5176,72 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/alle-artikel': typeof AlleArtikelRoute
   '/allgemein': typeof AllgemeinRouteWithChildren
-  '/blog': typeof BlogRoute
+  '/basics-ty': typeof BasicsTyRoute
+  '/bf': typeof BfRoute
+  '/bfbanner': typeof BfbannerRoute
+  '/bfemail': typeof BfemailRoute
+  '/blog': typeof BlogRouteWithChildren
+  '/bundle-excel-bi-ty': typeof BundleExcelBiTyRoute
+  '/bundle-pbi-dax-sql-ty': typeof BundlePbiDaxSqlTyRoute
+  '/bundle-pbi-dax-ty': typeof BundlePbiDaxTyRoute
+  '/bundle-sql-ty': typeof BundleSqlTyRoute
+  '/bundle-ty': typeof BundleTyRoute
+  '/bundle-ty-1': typeof BundleTy1Route
+  '/bundle-ty-2': typeof BundleTy2Route
+  '/bundle-ty-team1': typeof BundleTyTeam1Route
   '/chatgpt-und-excel': typeof ChatgptUndExcelRoute
   '/datenschutzerklaerung': typeof DatenschutzerklaerungRoute
+  '/datenzugriffsanfrage': typeof DatenzugriffsanfrageRoute
   '/diagramme': typeof DiagrammeRouteWithChildren
+  '/dv-ty': typeof DvTyRoute
   '/excel-auftragsprogrammierung': typeof ExcelAuftragsprogrammierungRoute
   '/excel-formeln': typeof ExcelFormelnRoute
   '/excel-funktionen': typeof ExcelFunktionenRoute
   '/excel-funktionen-deutsch-englisch': typeof ExcelFunktionenDeutschEnglischRoute
   '/excel-funktionen-power-query-uebersetzungstabelle': typeof ExcelFunktionenPowerQueryUebersetzungstabelleRoute
+  '/excel-kombination-video': typeof ExcelKombinationVideoRoute
+  '/excel-makros': typeof ExcelMakrosRoute
   '/excel-online-kurse': typeof ExcelOnlineKurseRoute
+  '/excel-potenzial': typeof ExcelPotenzialRoute
   '/excel-schulung-online': typeof ExcelSchulungOnlineRoute
   '/excel-tabellen': typeof ExcelTabellenRouteWithChildren
   '/excel-tastenkombinationen': typeof ExcelTastenkombinationenRoute
+  '/excel-vorlagen-download': typeof ExcelVorlagenDownloadRoute
+  '/feed': typeof FeedRouteWithChildren
+  '/feedback': typeof FeedbackRoute
   '/formeln': typeof FormelnRouteWithChildren
   '/funktionen': typeof FunktionenRouteWithChildren
+  '/funktionen-ty': typeof FunktionenTyRoute
   '/impressum': typeof ImpressumRoute
   '/kontakt': typeof KontaktRoute
+  '/kostenloser-excel-kurs': typeof KostenloserExcelKursRoute
+  '/mail-twilio': typeof MailTwilioRoute
   '/makros': typeof MakrosRouteWithChildren
+  '/makros-ty': typeof MakrosTyRoute
+  '/map': typeof MapRoute
   '/office-script': typeof OfficeScriptRouteWithChildren
+  '/office-ty': typeof OfficeTyRoute
   '/partnerprogramm': typeof PartnerprogrammRoute
   '/pivot-tabellen': typeof PivotTabellenRouteWithChildren
+  '/pivot-ty': typeof PivotTyRoute
   '/power-automate': typeof PowerAutomateRoute
   '/power-bi': typeof PowerBiRouteWithChildren
   '/power-bi-online-kurs': typeof PowerBiOnlineKursRoute
   '/power-pivot': typeof PowerPivotRouteWithChildren
+  '/power-pivot-ty': typeof PowerPivotTyRoute
   '/power-query': typeof PowerQueryRouteWithChildren
+  '/pq-ty': typeof PqTyRoute
+  '/robots.txt': typeof RobotsDottxtRoute
   '/rueckruf': typeof RueckrufRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tipps-tricks': typeof TippsTricksRouteWithChildren
   '/vba': typeof VbaRouteWithChildren
+  '/vba-basic-ty': typeof VbaBasicTyRoute
   '/vba-online-kurs': typeof VbaOnlineKursRoute
+  '/vba-premium-ty': typeof VbaPremiumTyRoute
+  '/vba-ty': typeof VbaTyRoute
+  '/videoserie-ty': typeof VideoserieTyRoute
+  '/webinar-pivot-dateien': typeof WebinarPivotDateienRoute
   '/allgemein/add-ins': typeof AllgemeinAddInsRoute
   '/allgemein/benutzerinformationen': typeof AllgemeinBenutzerinformationenRoute
   '/allgemein/bereiche-blaetter-schuetzen': typeof AllgemeinBereicheBlaetterSchuetzenRoute
@@ -4908,6 +5291,7 @@ export interface FileRoutesById {
   '/allgemein/mehrere-bereiche-markieren': typeof AllgemeinMehrereBereicheMarkierenRoute
   '/allgemein/menueband-anpassen': typeof AllgemeinMenuebandAnpassenRoute
   '/allgemein/microsoft-365-insider': typeof AllgemeinMicrosoft365InsiderRoute
+  '/allgemein/pivot-tabelle-formatierungen': typeof AllgemeinPivotTabelleFormatierungenRoute
   '/allgemein/produktinformationen': typeof AllgemeinProduktinformationenRoute
   '/allgemein/prognoseblatt': typeof AllgemeinPrognoseblattRoute
   '/allgemein/rechtschreibung-arbeitsmappenstatistiken': typeof AllgemeinRechtschreibungArbeitsmappenstatistikenRoute
@@ -4931,6 +5315,7 @@ export interface FileRoutesById {
   '/allgemein/zoom-erstellen': typeof AllgemeinZoomErstellenRoute
   '/automate/power-automate-ganz-einfach-erklaert': typeof AutomatePowerAutomateGanzEinfachErklaertRoute
   '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert': typeof BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute
+  '/category/$slug': typeof CategorySlugRoute
   '/diagramme/achsen-formatieren': typeof DiagrammeAchsenFormatierenRoute
   '/diagramme/balkendiagramm': typeof DiagrammeBalkendiagrammRoute
   '/diagramme/blasendiagramm': typeof DiagrammeBlasendiagrammRoute
@@ -4991,6 +5376,7 @@ export interface FileRoutesById {
   '/formeln/erste-spaltennummer-in-einem-zellbereich': typeof FormelnErsteSpaltennummerInEinemZellbereichRoute
   '/formeln/erste-zeilennummer-in-einem-zellbereich': typeof FormelnErsteZeilennummerInEinemZellbereichRoute
   '/formeln/erstes-zeichen-entfernen': typeof FormelnErstesZeichenEntfernenRoute
+  '/formeln/excel-gruppierennach-funktion': typeof FormelnExcelGruppierennachFunktionRoute
   '/formeln/fehlende-werte-markieren': typeof FormelnFehlendeWerteMarkierenRoute
   '/formeln/fehler-anfangen': typeof FormelnFehlerAnfangenRoute
   '/formeln/formel-in-zelle-anzeigen': typeof FormelnFormelInZelleAnzeigenRoute
@@ -5112,6 +5498,7 @@ export interface FileRoutesById {
   '/funktionen/excel-filter-funktion': typeof FunktionenExcelFilterFunktionRoute
   '/funktionen/excel-finden-funktion': typeof FunktionenExcelFindenFunktionRoute
   '/funktionen/excel-formeltext-funktion': typeof FunktionenExcelFormeltextFunktionRoute
+  '/funktionen/excel-funktionen': typeof FunktionenExcelFunktionenRoute
   '/funktionen/excel-ganzzahl-funktion': typeof FunktionenExcelGanzzahlFunktionRoute
   '/funktionen/excel-gerade-funktion': typeof FunktionenExcelGeradeFunktionRoute
   '/funktionen/excel-ggt-funktion': typeof FunktionenExcelGgtFunktionRoute
@@ -5361,6 +5748,7 @@ export interface FileRoutesById {
   '/allgemein/': typeof AllgemeinIndexRoute
   '/diagramme/': typeof DiagrammeIndexRoute
   '/excel-tabellen/': typeof ExcelTabellenIndexRoute
+  '/feed/': typeof FeedIndexRoute
   '/guides/': typeof GuidesIndexRoute
   '/makros/': typeof MakrosIndexRoute
   '/office-script/': typeof OfficeScriptIndexRoute
@@ -5370,6 +5758,8 @@ export interface FileRoutesById {
   '/power-query/': typeof PowerQueryIndexRoute
   '/tipps-tricks/': typeof TippsTricksIndexRoute
   '/vba/': typeof VbaIndexRoute
+  '/blog/page/$page': typeof BlogPagePageRoute
+  '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx': typeof WpContentUploads01ListeVsTabelleDotxlsxRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -5378,36 +5768,72 @@ export interface FileRouteTypes {
     | '/about'
     | '/alle-artikel'
     | '/allgemein'
+    | '/basics-ty'
+    | '/bf'
+    | '/bfbanner'
+    | '/bfemail'
     | '/blog'
+    | '/bundle-excel-bi-ty'
+    | '/bundle-pbi-dax-sql-ty'
+    | '/bundle-pbi-dax-ty'
+    | '/bundle-sql-ty'
+    | '/bundle-ty'
+    | '/bundle-ty-1'
+    | '/bundle-ty-2'
+    | '/bundle-ty-team1'
     | '/chatgpt-und-excel'
     | '/datenschutzerklaerung'
+    | '/datenzugriffsanfrage'
     | '/diagramme'
+    | '/dv-ty'
     | '/excel-auftragsprogrammierung'
     | '/excel-formeln'
     | '/excel-funktionen'
     | '/excel-funktionen-deutsch-englisch'
     | '/excel-funktionen-power-query-uebersetzungstabelle'
+    | '/excel-kombination-video'
+    | '/excel-makros'
     | '/excel-online-kurse'
+    | '/excel-potenzial'
     | '/excel-schulung-online'
     | '/excel-tabellen'
     | '/excel-tastenkombinationen'
+    | '/excel-vorlagen-download'
+    | '/feed'
+    | '/feedback'
     | '/formeln'
     | '/funktionen'
+    | '/funktionen-ty'
     | '/impressum'
     | '/kontakt'
+    | '/kostenloser-excel-kurs'
+    | '/mail-twilio'
     | '/makros'
+    | '/makros-ty'
+    | '/map'
     | '/office-script'
+    | '/office-ty'
     | '/partnerprogramm'
     | '/pivot-tabellen'
+    | '/pivot-ty'
     | '/power-automate'
     | '/power-bi'
     | '/power-bi-online-kurs'
     | '/power-pivot'
+    | '/power-pivot-ty'
     | '/power-query'
+    | '/pq-ty'
+    | '/robots.txt'
     | '/rueckruf'
+    | '/sitemap.xml'
     | '/tipps-tricks'
     | '/vba'
+    | '/vba-basic-ty'
     | '/vba-online-kurs'
+    | '/vba-premium-ty'
+    | '/vba-ty'
+    | '/videoserie-ty'
+    | '/webinar-pivot-dateien'
     | '/allgemein/add-ins'
     | '/allgemein/benutzerinformationen'
     | '/allgemein/bereiche-blaetter-schuetzen'
@@ -5457,6 +5883,7 @@ export interface FileRouteTypes {
     | '/allgemein/mehrere-bereiche-markieren'
     | '/allgemein/menueband-anpassen'
     | '/allgemein/microsoft-365-insider'
+    | '/allgemein/pivot-tabelle-formatierungen'
     | '/allgemein/produktinformationen'
     | '/allgemein/prognoseblatt'
     | '/allgemein/rechtschreibung-arbeitsmappenstatistiken'
@@ -5480,6 +5907,7 @@ export interface FileRouteTypes {
     | '/allgemein/zoom-erstellen'
     | '/automate/power-automate-ganz-einfach-erklaert'
     | '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert'
+    | '/category/$slug'
     | '/diagramme/achsen-formatieren'
     | '/diagramme/balkendiagramm'
     | '/diagramme/blasendiagramm'
@@ -5540,6 +5968,7 @@ export interface FileRouteTypes {
     | '/formeln/erste-spaltennummer-in-einem-zellbereich'
     | '/formeln/erste-zeilennummer-in-einem-zellbereich'
     | '/formeln/erstes-zeichen-entfernen'
+    | '/formeln/excel-gruppierennach-funktion'
     | '/formeln/fehlende-werte-markieren'
     | '/formeln/fehler-anfangen'
     | '/formeln/formel-in-zelle-anzeigen'
@@ -5661,6 +6090,7 @@ export interface FileRouteTypes {
     | '/funktionen/excel-filter-funktion'
     | '/funktionen/excel-finden-funktion'
     | '/funktionen/excel-formeltext-funktion'
+    | '/funktionen/excel-funktionen'
     | '/funktionen/excel-ganzzahl-funktion'
     | '/funktionen/excel-gerade-funktion'
     | '/funktionen/excel-ggt-funktion'
@@ -5910,6 +6340,7 @@ export interface FileRouteTypes {
     | '/allgemein/'
     | '/diagramme/'
     | '/excel-tabellen/'
+    | '/feed/'
     | '/guides/'
     | '/makros/'
     | '/office-script/'
@@ -5919,31 +6350,68 @@ export interface FileRouteTypes {
     | '/power-query/'
     | '/tipps-tricks/'
     | '/vba/'
+    | '/blog/page/$page'
+    | '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/alle-artikel'
+    | '/basics-ty'
+    | '/bf'
+    | '/bfbanner'
+    | '/bfemail'
     | '/blog'
+    | '/bundle-excel-bi-ty'
+    | '/bundle-pbi-dax-sql-ty'
+    | '/bundle-pbi-dax-ty'
+    | '/bundle-sql-ty'
+    | '/bundle-ty'
+    | '/bundle-ty-1'
+    | '/bundle-ty-2'
+    | '/bundle-ty-team1'
     | '/chatgpt-und-excel'
     | '/datenschutzerklaerung'
+    | '/datenzugriffsanfrage'
+    | '/dv-ty'
     | '/excel-auftragsprogrammierung'
     | '/excel-formeln'
     | '/excel-funktionen'
     | '/excel-funktionen-deutsch-englisch'
     | '/excel-funktionen-power-query-uebersetzungstabelle'
+    | '/excel-kombination-video'
+    | '/excel-makros'
     | '/excel-online-kurse'
+    | '/excel-potenzial'
     | '/excel-schulung-online'
     | '/excel-tastenkombinationen'
+    | '/excel-vorlagen-download'
+    | '/feedback'
     | '/formeln'
     | '/funktionen'
+    | '/funktionen-ty'
     | '/impressum'
     | '/kontakt'
+    | '/kostenloser-excel-kurs'
+    | '/mail-twilio'
+    | '/makros-ty'
+    | '/map'
+    | '/office-ty'
     | '/partnerprogramm'
+    | '/pivot-ty'
     | '/power-automate'
     | '/power-bi-online-kurs'
+    | '/power-pivot-ty'
+    | '/pq-ty'
+    | '/robots.txt'
     | '/rueckruf'
+    | '/sitemap.xml'
+    | '/vba-basic-ty'
     | '/vba-online-kurs'
+    | '/vba-premium-ty'
+    | '/vba-ty'
+    | '/videoserie-ty'
+    | '/webinar-pivot-dateien'
     | '/allgemein/add-ins'
     | '/allgemein/benutzerinformationen'
     | '/allgemein/bereiche-blaetter-schuetzen'
@@ -5993,6 +6461,7 @@ export interface FileRouteTypes {
     | '/allgemein/mehrere-bereiche-markieren'
     | '/allgemein/menueband-anpassen'
     | '/allgemein/microsoft-365-insider'
+    | '/allgemein/pivot-tabelle-formatierungen'
     | '/allgemein/produktinformationen'
     | '/allgemein/prognoseblatt'
     | '/allgemein/rechtschreibung-arbeitsmappenstatistiken'
@@ -6016,6 +6485,7 @@ export interface FileRouteTypes {
     | '/allgemein/zoom-erstellen'
     | '/automate/power-automate-ganz-einfach-erklaert'
     | '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert'
+    | '/category/$slug'
     | '/diagramme/achsen-formatieren'
     | '/diagramme/balkendiagramm'
     | '/diagramme/blasendiagramm'
@@ -6076,6 +6546,7 @@ export interface FileRouteTypes {
     | '/formeln/erste-spaltennummer-in-einem-zellbereich'
     | '/formeln/erste-zeilennummer-in-einem-zellbereich'
     | '/formeln/erstes-zeichen-entfernen'
+    | '/formeln/excel-gruppierennach-funktion'
     | '/formeln/fehlende-werte-markieren'
     | '/formeln/fehler-anfangen'
     | '/formeln/formel-in-zelle-anzeigen'
@@ -6197,6 +6668,7 @@ export interface FileRouteTypes {
     | '/funktionen/excel-filter-funktion'
     | '/funktionen/excel-finden-funktion'
     | '/funktionen/excel-formeltext-funktion'
+    | '/funktionen/excel-funktionen'
     | '/funktionen/excel-ganzzahl-funktion'
     | '/funktionen/excel-gerade-funktion'
     | '/funktionen/excel-ggt-funktion'
@@ -6446,6 +6918,7 @@ export interface FileRouteTypes {
     | '/allgemein'
     | '/diagramme'
     | '/excel-tabellen'
+    | '/feed'
     | '/guides'
     | '/makros'
     | '/office-script'
@@ -6455,42 +6928,80 @@ export interface FileRouteTypes {
     | '/power-query'
     | '/tipps-tricks'
     | '/vba'
+    | '/blog/page/$page'
+    | '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/alle-artikel'
     | '/allgemein'
+    | '/basics-ty'
+    | '/bf'
+    | '/bfbanner'
+    | '/bfemail'
     | '/blog'
+    | '/bundle-excel-bi-ty'
+    | '/bundle-pbi-dax-sql-ty'
+    | '/bundle-pbi-dax-ty'
+    | '/bundle-sql-ty'
+    | '/bundle-ty'
+    | '/bundle-ty-1'
+    | '/bundle-ty-2'
+    | '/bundle-ty-team1'
     | '/chatgpt-und-excel'
     | '/datenschutzerklaerung'
+    | '/datenzugriffsanfrage'
     | '/diagramme'
+    | '/dv-ty'
     | '/excel-auftragsprogrammierung'
     | '/excel-formeln'
     | '/excel-funktionen'
     | '/excel-funktionen-deutsch-englisch'
     | '/excel-funktionen-power-query-uebersetzungstabelle'
+    | '/excel-kombination-video'
+    | '/excel-makros'
     | '/excel-online-kurse'
+    | '/excel-potenzial'
     | '/excel-schulung-online'
     | '/excel-tabellen'
     | '/excel-tastenkombinationen'
+    | '/excel-vorlagen-download'
+    | '/feed'
+    | '/feedback'
     | '/formeln'
     | '/funktionen'
+    | '/funktionen-ty'
     | '/impressum'
     | '/kontakt'
+    | '/kostenloser-excel-kurs'
+    | '/mail-twilio'
     | '/makros'
+    | '/makros-ty'
+    | '/map'
     | '/office-script'
+    | '/office-ty'
     | '/partnerprogramm'
     | '/pivot-tabellen'
+    | '/pivot-ty'
     | '/power-automate'
     | '/power-bi'
     | '/power-bi-online-kurs'
     | '/power-pivot'
+    | '/power-pivot-ty'
     | '/power-query'
+    | '/pq-ty'
+    | '/robots.txt'
     | '/rueckruf'
+    | '/sitemap.xml'
     | '/tipps-tricks'
     | '/vba'
+    | '/vba-basic-ty'
     | '/vba-online-kurs'
+    | '/vba-premium-ty'
+    | '/vba-ty'
+    | '/videoserie-ty'
+    | '/webinar-pivot-dateien'
     | '/allgemein/add-ins'
     | '/allgemein/benutzerinformationen'
     | '/allgemein/bereiche-blaetter-schuetzen'
@@ -6540,6 +7051,7 @@ export interface FileRouteTypes {
     | '/allgemein/mehrere-bereiche-markieren'
     | '/allgemein/menueband-anpassen'
     | '/allgemein/microsoft-365-insider'
+    | '/allgemein/pivot-tabelle-formatierungen'
     | '/allgemein/produktinformationen'
     | '/allgemein/prognoseblatt'
     | '/allgemein/rechtschreibung-arbeitsmappenstatistiken'
@@ -6563,6 +7075,7 @@ export interface FileRouteTypes {
     | '/allgemein/zoom-erstellen'
     | '/automate/power-automate-ganz-einfach-erklaert'
     | '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert'
+    | '/category/$slug'
     | '/diagramme/achsen-formatieren'
     | '/diagramme/balkendiagramm'
     | '/diagramme/blasendiagramm'
@@ -6623,6 +7136,7 @@ export interface FileRouteTypes {
     | '/formeln/erste-spaltennummer-in-einem-zellbereich'
     | '/formeln/erste-zeilennummer-in-einem-zellbereich'
     | '/formeln/erstes-zeichen-entfernen'
+    | '/formeln/excel-gruppierennach-funktion'
     | '/formeln/fehlende-werte-markieren'
     | '/formeln/fehler-anfangen'
     | '/formeln/formel-in-zelle-anzeigen'
@@ -6744,6 +7258,7 @@ export interface FileRouteTypes {
     | '/funktionen/excel-filter-funktion'
     | '/funktionen/excel-finden-funktion'
     | '/funktionen/excel-formeltext-funktion'
+    | '/funktionen/excel-funktionen'
     | '/funktionen/excel-ganzzahl-funktion'
     | '/funktionen/excel-gerade-funktion'
     | '/funktionen/excel-ggt-funktion'
@@ -6993,6 +7508,7 @@ export interface FileRouteTypes {
     | '/allgemein/'
     | '/diagramme/'
     | '/excel-tabellen/'
+    | '/feed/'
     | '/guides/'
     | '/makros/'
     | '/office-script/'
@@ -7002,6 +7518,8 @@ export interface FileRouteTypes {
     | '/power-query/'
     | '/tipps-tricks/'
     | '/vba/'
+    | '/blog/page/$page'
+    | '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -7009,41 +7527,79 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   AlleArtikelRoute: typeof AlleArtikelRoute
   AllgemeinRoute: typeof AllgemeinRouteWithChildren
-  BlogRoute: typeof BlogRoute
+  BasicsTyRoute: typeof BasicsTyRoute
+  BfRoute: typeof BfRoute
+  BfbannerRoute: typeof BfbannerRoute
+  BfemailRoute: typeof BfemailRoute
+  BlogRoute: typeof BlogRouteWithChildren
+  BundleExcelBiTyRoute: typeof BundleExcelBiTyRoute
+  BundlePbiDaxSqlTyRoute: typeof BundlePbiDaxSqlTyRoute
+  BundlePbiDaxTyRoute: typeof BundlePbiDaxTyRoute
+  BundleSqlTyRoute: typeof BundleSqlTyRoute
+  BundleTyRoute: typeof BundleTyRoute
+  BundleTy1Route: typeof BundleTy1Route
+  BundleTy2Route: typeof BundleTy2Route
+  BundleTyTeam1Route: typeof BundleTyTeam1Route
   ChatgptUndExcelRoute: typeof ChatgptUndExcelRoute
   DatenschutzerklaerungRoute: typeof DatenschutzerklaerungRoute
+  DatenzugriffsanfrageRoute: typeof DatenzugriffsanfrageRoute
   DiagrammeRoute: typeof DiagrammeRouteWithChildren
+  DvTyRoute: typeof DvTyRoute
   ExcelAuftragsprogrammierungRoute: typeof ExcelAuftragsprogrammierungRoute
   ExcelFormelnRoute: typeof ExcelFormelnRoute
   ExcelFunktionenRoute: typeof ExcelFunktionenRoute
   ExcelFunktionenDeutschEnglischRoute: typeof ExcelFunktionenDeutschEnglischRoute
   ExcelFunktionenPowerQueryUebersetzungstabelleRoute: typeof ExcelFunktionenPowerQueryUebersetzungstabelleRoute
+  ExcelKombinationVideoRoute: typeof ExcelKombinationVideoRoute
+  ExcelMakrosRoute: typeof ExcelMakrosRoute
   ExcelOnlineKurseRoute: typeof ExcelOnlineKurseRoute
+  ExcelPotenzialRoute: typeof ExcelPotenzialRoute
   ExcelSchulungOnlineRoute: typeof ExcelSchulungOnlineRoute
   ExcelTabellenRoute: typeof ExcelTabellenRouteWithChildren
   ExcelTastenkombinationenRoute: typeof ExcelTastenkombinationenRoute
+  ExcelVorlagenDownloadRoute: typeof ExcelVorlagenDownloadRoute
+  FeedRoute: typeof FeedRouteWithChildren
+  FeedbackRoute: typeof FeedbackRoute
   FormelnRoute: typeof FormelnRouteWithChildren
   FunktionenRoute: typeof FunktionenRouteWithChildren
+  FunktionenTyRoute: typeof FunktionenTyRoute
   ImpressumRoute: typeof ImpressumRoute
   KontaktRoute: typeof KontaktRoute
+  KostenloserExcelKursRoute: typeof KostenloserExcelKursRoute
+  MailTwilioRoute: typeof MailTwilioRoute
   MakrosRoute: typeof MakrosRouteWithChildren
+  MakrosTyRoute: typeof MakrosTyRoute
+  MapRoute: typeof MapRoute
   OfficeScriptRoute: typeof OfficeScriptRouteWithChildren
+  OfficeTyRoute: typeof OfficeTyRoute
   PartnerprogrammRoute: typeof PartnerprogrammRoute
   PivotTabellenRoute: typeof PivotTabellenRouteWithChildren
+  PivotTyRoute: typeof PivotTyRoute
   PowerAutomateRoute: typeof PowerAutomateRoute
   PowerBiRoute: typeof PowerBiRouteWithChildren
   PowerBiOnlineKursRoute: typeof PowerBiOnlineKursRoute
   PowerPivotRoute: typeof PowerPivotRouteWithChildren
+  PowerPivotTyRoute: typeof PowerPivotTyRoute
   PowerQueryRoute: typeof PowerQueryRouteWithChildren
+  PqTyRoute: typeof PqTyRoute
+  RobotsDottxtRoute: typeof RobotsDottxtRoute
   RueckrufRoute: typeof RueckrufRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TippsTricksRoute: typeof TippsTricksRouteWithChildren
   VbaRoute: typeof VbaRouteWithChildren
+  VbaBasicTyRoute: typeof VbaBasicTyRoute
   VbaOnlineKursRoute: typeof VbaOnlineKursRoute
+  VbaPremiumTyRoute: typeof VbaPremiumTyRoute
+  VbaTyRoute: typeof VbaTyRoute
+  VideoserieTyRoute: typeof VideoserieTyRoute
+  WebinarPivotDateienRoute: typeof WebinarPivotDateienRoute
   AutomatePowerAutomateGanzEinfachErklaertRoute: typeof AutomatePowerAutomateGanzEinfachErklaertRoute
   BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute: typeof BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute
+  CategorySlugRoute: typeof CategorySlugRoute
   GuidesSlugRoute: typeof GuidesSlugRoute
   KiChatgptUndExcelRoute: typeof KiChatgptUndExcelRoute
   GuidesIndexRoute: typeof GuidesIndexRoute
+  WpContentUploads01ListeVsTabelleDotxlsxRoute: typeof WpContentUploads01ListeVsTabelleDotxlsxRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -7076,11 +7632,95 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AllgemeinRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/basics-ty': {
+      id: '/basics-ty'
+      path: '/basics-ty'
+      fullPath: '/basics-ty'
+      preLoaderRoute: typeof BasicsTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bf': {
+      id: '/bf'
+      path: '/bf'
+      fullPath: '/bf'
+      preLoaderRoute: typeof BfRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bfbanner': {
+      id: '/bfbanner'
+      path: '/bfbanner'
+      fullPath: '/bfbanner'
+      preLoaderRoute: typeof BfbannerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bfemail': {
+      id: '/bfemail'
+      path: '/bfemail'
+      fullPath: '/bfemail'
+      preLoaderRoute: typeof BfemailRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog': {
       id: '/blog'
       path: '/blog'
       fullPath: '/blog'
       preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-excel-bi-ty': {
+      id: '/bundle-excel-bi-ty'
+      path: '/bundle-excel-bi-ty'
+      fullPath: '/bundle-excel-bi-ty'
+      preLoaderRoute: typeof BundleExcelBiTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-pbi-dax-sql-ty': {
+      id: '/bundle-pbi-dax-sql-ty'
+      path: '/bundle-pbi-dax-sql-ty'
+      fullPath: '/bundle-pbi-dax-sql-ty'
+      preLoaderRoute: typeof BundlePbiDaxSqlTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-pbi-dax-ty': {
+      id: '/bundle-pbi-dax-ty'
+      path: '/bundle-pbi-dax-ty'
+      fullPath: '/bundle-pbi-dax-ty'
+      preLoaderRoute: typeof BundlePbiDaxTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-sql-ty': {
+      id: '/bundle-sql-ty'
+      path: '/bundle-sql-ty'
+      fullPath: '/bundle-sql-ty'
+      preLoaderRoute: typeof BundleSqlTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-ty': {
+      id: '/bundle-ty'
+      path: '/bundle-ty'
+      fullPath: '/bundle-ty'
+      preLoaderRoute: typeof BundleTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-ty-1': {
+      id: '/bundle-ty-1'
+      path: '/bundle-ty-1'
+      fullPath: '/bundle-ty-1'
+      preLoaderRoute: typeof BundleTy1RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-ty-2': {
+      id: '/bundle-ty-2'
+      path: '/bundle-ty-2'
+      fullPath: '/bundle-ty-2'
+      preLoaderRoute: typeof BundleTy2RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bundle-ty-team1': {
+      id: '/bundle-ty-team1'
+      path: '/bundle-ty-team1'
+      fullPath: '/bundle-ty-team1'
+      preLoaderRoute: typeof BundleTyTeam1RouteImport
       parentRoute: typeof rootRouteImport
     }
     '/chatgpt-und-excel': {
@@ -7097,11 +7737,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DatenschutzerklaerungRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/datenzugriffsanfrage': {
+      id: '/datenzugriffsanfrage'
+      path: '/datenzugriffsanfrage'
+      fullPath: '/datenzugriffsanfrage'
+      preLoaderRoute: typeof DatenzugriffsanfrageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/diagramme': {
       id: '/diagramme'
       path: '/diagramme'
       fullPath: '/diagramme'
       preLoaderRoute: typeof DiagrammeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dv-ty': {
+      id: '/dv-ty'
+      path: '/dv-ty'
+      fullPath: '/dv-ty'
+      preLoaderRoute: typeof DvTyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/excel-auftragsprogrammierung': {
@@ -7139,11 +7793,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ExcelFunktionenPowerQueryUebersetzungstabelleRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/excel-kombination-video': {
+      id: '/excel-kombination-video'
+      path: '/excel-kombination-video'
+      fullPath: '/excel-kombination-video'
+      preLoaderRoute: typeof ExcelKombinationVideoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/excel-makros': {
+      id: '/excel-makros'
+      path: '/excel-makros'
+      fullPath: '/excel-makros'
+      preLoaderRoute: typeof ExcelMakrosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/excel-online-kurse': {
       id: '/excel-online-kurse'
       path: '/excel-online-kurse'
       fullPath: '/excel-online-kurse'
       preLoaderRoute: typeof ExcelOnlineKurseRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/excel-potenzial': {
+      id: '/excel-potenzial'
+      path: '/excel-potenzial'
+      fullPath: '/excel-potenzial'
+      preLoaderRoute: typeof ExcelPotenzialRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/excel-schulung-online': {
@@ -7167,6 +7842,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ExcelTastenkombinationenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/excel-vorlagen-download': {
+      id: '/excel-vorlagen-download'
+      path: '/excel-vorlagen-download'
+      fullPath: '/excel-vorlagen-download'
+      preLoaderRoute: typeof ExcelVorlagenDownloadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/feed': {
+      id: '/feed'
+      path: '/feed'
+      fullPath: '/feed'
+      preLoaderRoute: typeof FeedRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/feedback': {
+      id: '/feedback'
+      path: '/feedback'
+      fullPath: '/feedback'
+      preLoaderRoute: typeof FeedbackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/formeln': {
       id: '/formeln'
       path: '/formeln'
@@ -7179,6 +7875,13 @@ declare module '@tanstack/react-router' {
       path: '/funktionen'
       fullPath: '/funktionen'
       preLoaderRoute: typeof FunktionenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/funktionen-ty': {
+      id: '/funktionen-ty'
+      path: '/funktionen-ty'
+      fullPath: '/funktionen-ty'
+      preLoaderRoute: typeof FunktionenTyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/impressum': {
@@ -7195,6 +7898,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KontaktRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/kostenloser-excel-kurs': {
+      id: '/kostenloser-excel-kurs'
+      path: '/kostenloser-excel-kurs'
+      fullPath: '/kostenloser-excel-kurs'
+      preLoaderRoute: typeof KostenloserExcelKursRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mail-twilio': {
+      id: '/mail-twilio'
+      path: '/mail-twilio'
+      fullPath: '/mail-twilio'
+      preLoaderRoute: typeof MailTwilioRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/makros': {
       id: '/makros'
       path: '/makros'
@@ -7202,11 +7919,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MakrosRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/makros-ty': {
+      id: '/makros-ty'
+      path: '/makros-ty'
+      fullPath: '/makros-ty'
+      preLoaderRoute: typeof MakrosTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/map': {
+      id: '/map'
+      path: '/map'
+      fullPath: '/map'
+      preLoaderRoute: typeof MapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/office-script': {
       id: '/office-script'
       path: '/office-script'
       fullPath: '/office-script'
       preLoaderRoute: typeof OfficeScriptRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/office-ty': {
+      id: '/office-ty'
+      path: '/office-ty'
+      fullPath: '/office-ty'
+      preLoaderRoute: typeof OfficeTyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/partnerprogramm': {
@@ -7221,6 +7959,13 @@ declare module '@tanstack/react-router' {
       path: '/pivot-tabellen'
       fullPath: '/pivot-tabellen'
       preLoaderRoute: typeof PivotTabellenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pivot-ty': {
+      id: '/pivot-ty'
+      path: '/pivot-ty'
+      fullPath: '/pivot-ty'
+      preLoaderRoute: typeof PivotTyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/power-automate': {
@@ -7251,6 +7996,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PowerPivotRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/power-pivot-ty': {
+      id: '/power-pivot-ty'
+      path: '/power-pivot-ty'
+      fullPath: '/power-pivot-ty'
+      preLoaderRoute: typeof PowerPivotTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/power-query': {
       id: '/power-query'
       path: '/power-query'
@@ -7258,11 +8010,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PowerQueryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pq-ty': {
+      id: '/pq-ty'
+      path: '/pq-ty'
+      fullPath: '/pq-ty'
+      preLoaderRoute: typeof PqTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/robots.txt': {
+      id: '/robots.txt'
+      path: '/robots.txt'
+      fullPath: '/robots.txt'
+      preLoaderRoute: typeof RobotsDottxtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rueckruf': {
       id: '/rueckruf'
       path: '/rueckruf'
       fullPath: '/rueckruf'
       preLoaderRoute: typeof RueckrufRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/tipps-tricks': {
@@ -7279,11 +8052,46 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof VbaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/vba-basic-ty': {
+      id: '/vba-basic-ty'
+      path: '/vba-basic-ty'
+      fullPath: '/vba-basic-ty'
+      preLoaderRoute: typeof VbaBasicTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/vba-online-kurs': {
       id: '/vba-online-kurs'
       path: '/vba-online-kurs'
       fullPath: '/vba-online-kurs'
       preLoaderRoute: typeof VbaOnlineKursRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vba-premium-ty': {
+      id: '/vba-premium-ty'
+      path: '/vba-premium-ty'
+      fullPath: '/vba-premium-ty'
+      preLoaderRoute: typeof VbaPremiumTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vba-ty': {
+      id: '/vba-ty'
+      path: '/vba-ty'
+      fullPath: '/vba-ty'
+      preLoaderRoute: typeof VbaTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/videoserie-ty': {
+      id: '/videoserie-ty'
+      path: '/videoserie-ty'
+      fullPath: '/videoserie-ty'
+      preLoaderRoute: typeof VideoserieTyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/webinar-pivot-dateien': {
+      id: '/webinar-pivot-dateien'
+      path: '/webinar-pivot-dateien'
+      fullPath: '/webinar-pivot-dateien'
+      preLoaderRoute: typeof WebinarPivotDateienRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/allgemein/': {
@@ -7636,6 +8444,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AllgemeinMicrosoft365InsiderRouteImport
       parentRoute: typeof AllgemeinRoute
     }
+    '/allgemein/pivot-tabelle-formatierungen': {
+      id: '/allgemein/pivot-tabelle-formatierungen'
+      path: '/pivot-tabelle-formatierungen'
+      fullPath: '/allgemein/pivot-tabelle-formatierungen'
+      preLoaderRoute: typeof AllgemeinPivotTabelleFormatierungenRouteImport
+      parentRoute: typeof AllgemeinRoute
+    }
     '/allgemein/produktinformationen': {
       id: '/allgemein/produktinformationen'
       path: '/produktinformationen'
@@ -7795,6 +8610,13 @@ declare module '@tanstack/react-router' {
       path: '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert'
       fullPath: '/bedingte-formatierung/bedingte-formatierung-ganz-einfach-erklaert'
       preLoaderRoute: typeof BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/category/$slug': {
+      id: '/category/$slug'
+      path: '/category/$slug'
+      fullPath: '/category/$slug'
+      preLoaderRoute: typeof CategorySlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/diagramme/': {
@@ -7978,6 +8800,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/excel-tabellen/excel-tabelle-erstellen'
       preLoaderRoute: typeof ExcelTabellenExcelTabelleErstellenRouteImport
       parentRoute: typeof ExcelTabellenRoute
+    }
+    '/feed/': {
+      id: '/feed/'
+      path: '/'
+      fullPath: '/feed/'
+      preLoaderRoute: typeof FeedIndexRouteImport
+      parentRoute: typeof FeedRoute
     }
     '/formeln/adresse-der-ersten-zelle-in-zellbereich': {
       id: '/formeln/adresse-der-ersten-zelle-in-zellbereich'
@@ -8229,6 +9058,13 @@ declare module '@tanstack/react-router' {
       path: '/erstes-zeichen-entfernen'
       fullPath: '/formeln/erstes-zeichen-entfernen'
       preLoaderRoute: typeof FormelnErstesZeichenEntfernenRouteImport
+      parentRoute: typeof FormelnRoute
+    }
+    '/formeln/excel-gruppierennach-funktion': {
+      id: '/formeln/excel-gruppierennach-funktion'
+      path: '/excel-gruppierennach-funktion'
+      fullPath: '/formeln/excel-gruppierennach-funktion'
+      preLoaderRoute: typeof FormelnExcelGruppierennachFunktionRouteImport
       parentRoute: typeof FormelnRoute
     }
     '/formeln/fehlende-werte-markieren': {
@@ -9076,6 +9912,13 @@ declare module '@tanstack/react-router' {
       path: '/excel-formeltext-funktion'
       fullPath: '/funktionen/excel-formeltext-funktion'
       preLoaderRoute: typeof FunktionenExcelFormeltextFunktionRouteImport
+      parentRoute: typeof FunktionenRoute
+    }
+    '/funktionen/excel-funktionen': {
+      id: '/funktionen/excel-funktionen'
+      path: '/excel-funktionen'
+      fullPath: '/funktionen/excel-funktionen'
+      preLoaderRoute: typeof FunktionenExcelFunktionenRouteImport
       parentRoute: typeof FunktionenRoute
     }
     '/funktionen/excel-ganzzahl-funktion': {
@@ -10863,6 +11706,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof VbaExcelVbaRouteImport
       parentRoute: typeof VbaRoute
     }
+    '/blog/page/$page': {
+      id: '/blog/page/$page'
+      path: '/page/$page'
+      fullPath: '/blog/page/$page'
+      preLoaderRoute: typeof BlogPagePageRouteImport
+      parentRoute: typeof BlogRoute
+    }
+    '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx': {
+      id: '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx'
+      path: '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx'
+      fullPath: '/wp-content/uploads/01-Liste-vs-Tabelle.xlsx'
+      preLoaderRoute: typeof WpContentUploads01ListeVsTabelleDotxlsxRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -10916,6 +11773,7 @@ interface AllgemeinRouteChildren {
   AllgemeinMehrereBereicheMarkierenRoute: typeof AllgemeinMehrereBereicheMarkierenRoute
   AllgemeinMenuebandAnpassenRoute: typeof AllgemeinMenuebandAnpassenRoute
   AllgemeinMicrosoft365InsiderRoute: typeof AllgemeinMicrosoft365InsiderRoute
+  AllgemeinPivotTabelleFormatierungenRoute: typeof AllgemeinPivotTabelleFormatierungenRoute
   AllgemeinProduktinformationenRoute: typeof AllgemeinProduktinformationenRoute
   AllgemeinPrognoseblattRoute: typeof AllgemeinPrognoseblattRoute
   AllgemeinRechtschreibungArbeitsmappenstatistikenRoute: typeof AllgemeinRechtschreibungArbeitsmappenstatistikenRoute
@@ -10997,6 +11855,8 @@ const AllgemeinRouteChildren: AllgemeinRouteChildren = {
     AllgemeinMehrereBereicheMarkierenRoute,
   AllgemeinMenuebandAnpassenRoute: AllgemeinMenuebandAnpassenRoute,
   AllgemeinMicrosoft365InsiderRoute: AllgemeinMicrosoft365InsiderRoute,
+  AllgemeinPivotTabelleFormatierungenRoute:
+    AllgemeinPivotTabelleFormatierungenRoute,
   AllgemeinProduktinformationenRoute: AllgemeinProduktinformationenRoute,
   AllgemeinPrognoseblattRoute: AllgemeinPrognoseblattRoute,
   AllgemeinRechtschreibungArbeitsmappenstatistikenRoute:
@@ -11029,6 +11889,16 @@ const AllgemeinRouteChildren: AllgemeinRouteChildren = {
 const AllgemeinRouteWithChildren = AllgemeinRoute._addFileChildren(
   AllgemeinRouteChildren,
 )
+
+interface BlogRouteChildren {
+  BlogPagePageRoute: typeof BlogPagePageRoute
+}
+
+const BlogRouteChildren: BlogRouteChildren = {
+  BlogPagePageRoute: BlogPagePageRoute,
+}
+
+const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
 interface DiagrammeRouteChildren {
   DiagrammeAchsenFormatierenRoute: typeof DiagrammeAchsenFormatierenRoute
@@ -11106,6 +11976,16 @@ const ExcelTabellenRouteWithChildren = ExcelTabellenRoute._addFileChildren(
   ExcelTabellenRouteChildren,
 )
 
+interface FeedRouteChildren {
+  FeedIndexRoute: typeof FeedIndexRoute
+}
+
+const FeedRouteChildren: FeedRouteChildren = {
+  FeedIndexRoute: FeedIndexRoute,
+}
+
+const FeedRouteWithChildren = FeedRoute._addFileChildren(FeedRouteChildren)
+
 interface FormelnRouteChildren {
   FormelnAdresseDerErstenZelleInZellbereichRoute: typeof FormelnAdresseDerErstenZelleInZellbereichRoute
   FormelnAdresseDerLetztenZelleInZellbereichRoute: typeof FormelnAdresseDerLetztenZelleInZellbereichRoute
@@ -11143,6 +12023,7 @@ interface FormelnRouteChildren {
   FormelnErsteSpaltennummerInEinemZellbereichRoute: typeof FormelnErsteSpaltennummerInEinemZellbereichRoute
   FormelnErsteZeilennummerInEinemZellbereichRoute: typeof FormelnErsteZeilennummerInEinemZellbereichRoute
   FormelnErstesZeichenEntfernenRoute: typeof FormelnErstesZeichenEntfernenRoute
+  FormelnExcelGruppierennachFunktionRoute: typeof FormelnExcelGruppierennachFunktionRoute
   FormelnFehlendeWerteMarkierenRoute: typeof FormelnFehlendeWerteMarkierenRoute
   FormelnFehlerAnfangenRoute: typeof FormelnFehlerAnfangenRoute
   FormelnFormelInZelleAnzeigenRoute: typeof FormelnFormelInZelleAnzeigenRoute
@@ -11279,6 +12160,8 @@ const FormelnRouteChildren: FormelnRouteChildren = {
   FormelnErsteZeilennummerInEinemZellbereichRoute:
     FormelnErsteZeilennummerInEinemZellbereichRoute,
   FormelnErstesZeichenEntfernenRoute: FormelnErstesZeichenEntfernenRoute,
+  FormelnExcelGruppierennachFunktionRoute:
+    FormelnExcelGruppierennachFunktionRoute,
   FormelnFehlendeWerteMarkierenRoute: FormelnFehlendeWerteMarkierenRoute,
   FormelnFehlerAnfangenRoute: FormelnFehlerAnfangenRoute,
   FormelnFormelInZelleAnzeigenRoute: FormelnFormelInZelleAnzeigenRoute,
@@ -11436,6 +12319,7 @@ interface FunktionenRouteChildren {
   FunktionenExcelFilterFunktionRoute: typeof FunktionenExcelFilterFunktionRoute
   FunktionenExcelFindenFunktionRoute: typeof FunktionenExcelFindenFunktionRoute
   FunktionenExcelFormeltextFunktionRoute: typeof FunktionenExcelFormeltextFunktionRoute
+  FunktionenExcelFunktionenRoute: typeof FunktionenExcelFunktionenRoute
   FunktionenExcelGanzzahlFunktionRoute: typeof FunktionenExcelGanzzahlFunktionRoute
   FunktionenExcelGeradeFunktionRoute: typeof FunktionenExcelGeradeFunktionRoute
   FunktionenExcelGgtFunktionRoute: typeof FunktionenExcelGgtFunktionRoute
@@ -11671,6 +12555,7 @@ const FunktionenRouteChildren: FunktionenRouteChildren = {
   FunktionenExcelFindenFunktionRoute: FunktionenExcelFindenFunktionRoute,
   FunktionenExcelFormeltextFunktionRoute:
     FunktionenExcelFormeltextFunktionRoute,
+  FunktionenExcelFunktionenRoute: FunktionenExcelFunktionenRoute,
   FunktionenExcelGanzzahlFunktionRoute: FunktionenExcelGanzzahlFunktionRoute,
   FunktionenExcelGeradeFunktionRoute: FunktionenExcelGeradeFunktionRoute,
   FunktionenExcelGgtFunktionRoute: FunktionenExcelGgtFunktionRoute,
@@ -12167,44 +13052,83 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   AlleArtikelRoute: AlleArtikelRoute,
   AllgemeinRoute: AllgemeinRouteWithChildren,
-  BlogRoute: BlogRoute,
+  BasicsTyRoute: BasicsTyRoute,
+  BfRoute: BfRoute,
+  BfbannerRoute: BfbannerRoute,
+  BfemailRoute: BfemailRoute,
+  BlogRoute: BlogRouteWithChildren,
+  BundleExcelBiTyRoute: BundleExcelBiTyRoute,
+  BundlePbiDaxSqlTyRoute: BundlePbiDaxSqlTyRoute,
+  BundlePbiDaxTyRoute: BundlePbiDaxTyRoute,
+  BundleSqlTyRoute: BundleSqlTyRoute,
+  BundleTyRoute: BundleTyRoute,
+  BundleTy1Route: BundleTy1Route,
+  BundleTy2Route: BundleTy2Route,
+  BundleTyTeam1Route: BundleTyTeam1Route,
   ChatgptUndExcelRoute: ChatgptUndExcelRoute,
   DatenschutzerklaerungRoute: DatenschutzerklaerungRoute,
+  DatenzugriffsanfrageRoute: DatenzugriffsanfrageRoute,
   DiagrammeRoute: DiagrammeRouteWithChildren,
+  DvTyRoute: DvTyRoute,
   ExcelAuftragsprogrammierungRoute: ExcelAuftragsprogrammierungRoute,
   ExcelFormelnRoute: ExcelFormelnRoute,
   ExcelFunktionenRoute: ExcelFunktionenRoute,
   ExcelFunktionenDeutschEnglischRoute: ExcelFunktionenDeutschEnglischRoute,
   ExcelFunktionenPowerQueryUebersetzungstabelleRoute:
     ExcelFunktionenPowerQueryUebersetzungstabelleRoute,
+  ExcelKombinationVideoRoute: ExcelKombinationVideoRoute,
+  ExcelMakrosRoute: ExcelMakrosRoute,
   ExcelOnlineKurseRoute: ExcelOnlineKurseRoute,
+  ExcelPotenzialRoute: ExcelPotenzialRoute,
   ExcelSchulungOnlineRoute: ExcelSchulungOnlineRoute,
   ExcelTabellenRoute: ExcelTabellenRouteWithChildren,
   ExcelTastenkombinationenRoute: ExcelTastenkombinationenRoute,
+  ExcelVorlagenDownloadRoute: ExcelVorlagenDownloadRoute,
+  FeedRoute: FeedRouteWithChildren,
+  FeedbackRoute: FeedbackRoute,
   FormelnRoute: FormelnRouteWithChildren,
   FunktionenRoute: FunktionenRouteWithChildren,
+  FunktionenTyRoute: FunktionenTyRoute,
   ImpressumRoute: ImpressumRoute,
   KontaktRoute: KontaktRoute,
+  KostenloserExcelKursRoute: KostenloserExcelKursRoute,
+  MailTwilioRoute: MailTwilioRoute,
   MakrosRoute: MakrosRouteWithChildren,
+  MakrosTyRoute: MakrosTyRoute,
+  MapRoute: MapRoute,
   OfficeScriptRoute: OfficeScriptRouteWithChildren,
+  OfficeTyRoute: OfficeTyRoute,
   PartnerprogrammRoute: PartnerprogrammRoute,
   PivotTabellenRoute: PivotTabellenRouteWithChildren,
+  PivotTyRoute: PivotTyRoute,
   PowerAutomateRoute: PowerAutomateRoute,
   PowerBiRoute: PowerBiRouteWithChildren,
   PowerBiOnlineKursRoute: PowerBiOnlineKursRoute,
   PowerPivotRoute: PowerPivotRouteWithChildren,
+  PowerPivotTyRoute: PowerPivotTyRoute,
   PowerQueryRoute: PowerQueryRouteWithChildren,
+  PqTyRoute: PqTyRoute,
+  RobotsDottxtRoute: RobotsDottxtRoute,
   RueckrufRoute: RueckrufRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TippsTricksRoute: TippsTricksRouteWithChildren,
   VbaRoute: VbaRouteWithChildren,
+  VbaBasicTyRoute: VbaBasicTyRoute,
   VbaOnlineKursRoute: VbaOnlineKursRoute,
+  VbaPremiumTyRoute: VbaPremiumTyRoute,
+  VbaTyRoute: VbaTyRoute,
+  VideoserieTyRoute: VideoserieTyRoute,
+  WebinarPivotDateienRoute: WebinarPivotDateienRoute,
   AutomatePowerAutomateGanzEinfachErklaertRoute:
     AutomatePowerAutomateGanzEinfachErklaertRoute,
   BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute:
     BedingteFormatierungBedingteFormatierungGanzEinfachErklaertRoute,
+  CategorySlugRoute: CategorySlugRoute,
   GuidesSlugRoute: GuidesSlugRoute,
   KiChatgptUndExcelRoute: KiChatgptUndExcelRoute,
   GuidesIndexRoute: GuidesIndexRoute,
+  WpContentUploads01ListeVsTabelleDotxlsxRoute:
+    WpContentUploads01ListeVsTabelleDotxlsxRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
